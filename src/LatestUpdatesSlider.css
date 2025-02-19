@@ -1,0 +1,83 @@
+.latest-updates-slider-container {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.latest-updates-slider-container h2 {
+  color: #333;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.update-card {
+  padding: 20px;
+  text-align: center;
+}
+
+.update-card h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.update-card p {
+  color: #666;
+  line-height: 1.4;
+}
+
+.latest-updates-slider-container .view-all-button {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.latest-updates-slider-container .view-all-button:hover {
+  background-color: #0056b3;
+}
+
+/* Slick Slider Styles */
+.slick-dots {
+  bottom: 10px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 10px !important;
+  color: #999;
+  opacity: 0.75;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #007bff;
+  opacity: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .latest-updates-slider-container {
+    padding: 16px;
+  }
+
+  .latest-updates-slider-container h2 {
+    font-size: 1.5em;
+  }
+
+  .update-card {
+    padding: 12px;
+  }
+}
